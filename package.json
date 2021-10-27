@@ -1,0 +1,20 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Moka-Protocol/scripts.git",
+  "author": "DW <danny@limestat.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/client": "^3.4.16",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-link-http": "^1.5.17",
+    "ethers": "^5.4.7",
+    "graphql": "^15.6.1",
+    "graphql-tag": "^2.12.5",
+    "node-fetch": "^3.0.0"
+  },
+  "scripts": {
+    "execute": "node payout.js"
+  }
+}

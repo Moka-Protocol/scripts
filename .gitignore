@@ -1,0 +1,9 @@
+/node_modules
+/consoleLogs
+
+.DS_Store
+
+keys.js
+
+yarn-error.log
+yarn.lock
